@@ -1,0 +1,35 @@
+.header-Container{
+    position: fixed;
+    top: 0;
+    margin: 1.5%;
+    display: flex;
+    background: rgb(131,58,180);
+    background: linear-gradient(353deg, rgba(131,58,180,1) 5%, rgba(253,29,29,1) 65%, rgba(252,176,69,1) 85%);
+    align-items: center;
+    justify-content: space-between;
+    width: 78vw;
+    height: 10vh;
+    font-size: large;
+    border-radius: 2rem;
+    color: white;
+    z-index: 5;
+    padding: 0 5vw;
+}
+.header-name{
+ font-weight: 800;
+ text-align: start;
+}
+.header-Content{
+    display: flex;
+    gap: 2.5vw;
+}
+.header-Content>a{
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.header-Content>p:active{
+     transform: translate(1);
+}

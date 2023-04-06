@@ -1,0 +1,109 @@
+.project{
+    height: 90vh;
+    width: 98.9vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 85px;
+}
+
+.project-Container{
+    width: 85vw;
+    text-align: start;
+    margin-bottom: 5%;
+}
+.project-Container>h1{
+    margin-bottom: 4%;
+    font-size: xx-large;
+}
+.my-project{
+    display: flex;
+    justify-content: space-between;
+    height: 55vh;
+    
+   
+}
+
+.p1,.p2,.p3{
+    position: relative;
+    width: 23vw;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.project-image{
+    height:100%;
+    width:100%;
+    border-radius: 1.5rem;
+}
+.content{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    bottom: -10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: 200ms ease-in-out;
+    background-color: rgba(0,0,0,.6);
+}
+.project-title{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0;
+    text-shadow: 2px 1px 5px rgb(214, 15, 15);
+    text-decoration:underline;
+}
+.content>p{
+    text-align: center;
+}
+.p1:hover .content{
+    opacity: 1;
+    bottom: 0;
+}
+.p2:hover .content{
+    opacity: 1;
+    bottom: 0;
+}
+.p3:hover .content{
+    opacity: 1;
+    bottom: 0;
+}
+
+.code-icon{
+    text-align: center;
+}
+.icon{
+    cursor: pointer;
+    color: white;
+    margin: 0 8%;
+}
+.icon:hover{
+    color: #ff0033ee;
+}
+
+.more-project-btn{
+    display: flex;
+    justify-content: center;
+}
+.more-project-btn>a{
+    font-size: large;
+    font-weight: 700;
+    margin-top: 4%;
+    padding: 1.2% 3%;
+    cursor: pointer;
+    border: 3px solid rgb(161, 15, 15);
+    outline: none;
+    border-radius: .3rem;
+    color: rgb(161, 15, 15);
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.684);
+}
+
+@media screen and (max-width: 1101px) {
+    .p1,.p2,.p3{
+        width: 25vw;
+    }
+}

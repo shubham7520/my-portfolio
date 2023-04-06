@@ -1,0 +1,52 @@
+.about-page{
+    background-color: black;
+    color: white;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.about-Container{
+ 
+    display: flex;
+   
+    padding: 0 14%;
+    position: relative;
+}
+.image{
+    margin-right: 8%;
+}
+.about-image{
+    height: 48vh;
+    width: 18rem;
+    border-radius: .5rem;
+}
+.about{
+text-align: start;
+}
+.about>h1>span{
+    color: rgb(161, 15, 15);
+}
+
+.about>a>button{
+ font-size: large;
+ font-weight: 600;
+ margin-top: 4%;
+ padding: 1.5% 3.5%;
+ cursor: pointer;
+ border: 2px solid rgb(161, 15, 15);
+ outline: none;
+ border-radius: .3rem;
+}
+
+@media screen and (max-width: 1101px) {
+    .about-Container{
+         display: flex;
+         padding: 0 8%;
+    }
+    .about-image{
+        width: 16rem;
+    }
+    
+}
